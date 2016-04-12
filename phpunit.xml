@@ -1,0 +1,13 @@
+<phpunit>
+    <filter>
+        <blacklist>
+            <directory>vendor</directory>
+        </blacklist>
+        <whitelist>
+            <directory>src</directory>
+        </whitelist>
+    </filter>
+    <testsuite>
+        <directory>tests</directory>
+    </testsuite>
+</phpunit>

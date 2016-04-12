@@ -1,0 +1,20 @@
+{
+    "name": "root/tdd",
+    "require-dev": {
+        "phpunit/phpunit": "^5.0",
+        "phpunit/php-code-coverage": "dev-master#b8436b000263f6d72fbad1d36890e247ce84857e",
+        "phpmd/phpmd": "^2.3",
+        "squizlabs/php_codesniffer": "^2.3"
+    },
+    "authors": [
+        {
+            "name": "gaomir",
+            "email": "gaomir@gmail.com"
+        }
+    ],
+    "autoload": {
+      "psr-4": {
+        "Gaomir\\": "src/"
+      }
+    }
+}
